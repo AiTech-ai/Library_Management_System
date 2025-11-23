@@ -121,6 +121,42 @@ Confirm that the main menu is displayed without errors.
 * Choose option 0.
 * Confirm that the application exits gracefully with a goodbye message.
 
+# Functional Modules 
+## 1. Book Management Module
+This module handles all operations related to library books.
+
+* Add new books to the system
+* Update book details (title, author, quantity)
+* Delete book records
+* Search books by title or ID
+* View list of all books with availability status
+
+## 2. Member Management Module
+This module manages student or user information.
+
+* Register new members
+* View member details
+* Maintain unique member ID
+* Update member records if required
+
+## 3. Issue Book Module
+This module controls the process of issuing books to members.
+
+* Issue books to registered members
+* Verify book availability
+* Record issue date and due date
+* Reduce available book quantity
+* Generate transaction ID
+
+## 4. Return Book Module
+This module manages the returning process.
+
+* Accept returned books
+* Update return date
+* Increase available book quantity
+* Prevent duplicate return of same book
+* Display confirmation message
+
 
 
 
